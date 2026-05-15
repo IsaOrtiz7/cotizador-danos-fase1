@@ -513,6 +513,8 @@ class MenuConsola {
     }
   }
 
+  // explicación Opción 4: Demo Asincronía
+
   private async demoAsync() {
     console.log('\n\x1b[1m--- Demo Asincronía (Promise.allSettled) ---\x1b[0m');
     const dañoDemo: Daño = { kind: 'vehiculo', placa: 'ABC123', modelo: 'Mazda', año: 2023, tipoAccidente: 'colisión' };
