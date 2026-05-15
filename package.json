@@ -1,0 +1,26 @@
+{
+  "name": "cotizador-danos-fase1",
+  "version": "1.0.0",
+  "description": "Proyecto consola que cubre 100% la Fase 1 del Roadmap Cotizador de Daños - IA Center Sofka",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "npx tsx src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [
+    "typescript",
+    "design-patterns",
+    "clean-architecture",
+    "cotizador",
+    "sofka"
+  ],
+  "author": "Grok para Isaac",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.0"
+  }
+}
